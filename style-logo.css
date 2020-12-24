@@ -274,6 +274,7 @@ align-items: center;
    align-items: center;
    font-size: 60px;
    width: 400px;
+   
 
 }
   .texto-espo {
@@ -445,10 +446,7 @@ align-items: center;
   width: 160px;
 }
 }
-
-
-
-@media screen and (max-width: 780px){
+@media screen and (max-width: 790px){
 
   .a-menu-centro {
     font-size: 24px;
@@ -458,8 +456,9 @@ margin-right: 14px;
   font-size: 34px;
 text-align: center;
 margin: 0px;
-top: 43px;
-right: 223px;
+right: 7%;
+display: inline-block;
+bottom: 0px;
 text-shadow: 2px 0 0px #8b5742, 0px 2px;
 }
 .ul-menu-centro {
@@ -468,9 +467,9 @@ right: 0px;
   
 }
 .social {
-  top: 8px;
-right: 125px;
-width: 19px;
+  top: 117px;
+right: -7px;
+width: 27px;
 }
 
 .barner-div {
@@ -518,5 +517,23 @@ width: 19px;
 }
 #fffo {
   margin-left: 9px;
+}
+.img-galeria {
+  width: 284px;
+ 
+}
+}
+@media screen and (max-width: 500px){
+  .social {
+    top: 117px;
+    right: -7px;
+    width: 27px;
+}
+}
+@media screen and (max-width: 380px){
+  .social {
+    top: 56px;
+    right: 172px;
+    width: 42px;
 }
 }
