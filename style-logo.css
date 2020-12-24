@@ -15,11 +15,6 @@ body{
   font-family: banana;
   src: url("./fontes/promocyja/Promocyja096.ttf");
 }
-header{
-  width: 100%;
-height: auto;
-  padding: 0px
-}
 .centro{
    margin: 0px;
    padding: 0px;
@@ -67,7 +62,7 @@ height: auto;
     display: inline;
     float:right;
     margin: 5px;
-    
+    padding-right: 10px;
   }
   .logo-rede{
     list-style: none; 
@@ -84,8 +79,7 @@ height: auto;
     bottom: 40px;
     margin-left: 30px;
     color: #8b5742;
-text-shadow: 5px 0 0px #8b5742, 3px 2px ;
-
+    text-shadow: 5px 0 0px #8b5742, 3px 2px ;
   }
  
   .barner-div .barner-foto{
@@ -95,16 +89,11 @@ text-shadow: 5px 0 0px #8b5742, 3px 2px ;
     height: auto;
     margin: 110px;
     border-radius:  50%  100% ;
-   
-  
-  
-    
   }
   .barner-div{
     width: 100%;
-    height: 490px; 
+    height: 520px; 
     background-color:#8b5742; 
-    
   }
   .amostra{
     width: 100%;
@@ -122,7 +111,6 @@ text-shadow: 5px 0 0px #8b5742, 3px 2px ;
     margin: 20px;
     padding: 2px;
     border-radius: 100% 100% 100%;
-    
   }
   .img-barner-apresent{
     width: 500px;
@@ -132,26 +120,23 @@ text-shadow: 5px 0 0px #8b5742, 3px 2px ;
   }
   .div-pequenas-laterais{
     text-align: center;
-   
   }
-
   .ul-imagens{
     width: 700px;
     height: 200px;
     display: inline-block;
     text-align: center;
+    list-style: none;
     }
-    
     .li-imagens{
       list-style: none;
       display: inline-block;
-      
     }
     .imagen-li{
       width: 200px;
       border-radius: 0% 90% 0% 90%;
     }
- 
+
   .tamanho-l{
   float: right;
   width: 300px;
@@ -175,23 +160,6 @@ text-shadow: 5px 0 0px #8b5742, 3px 2px ;
   float: right;
   
 }
-
-footer{
-  
-  width: 100%;
-  height: 80px;
-  background-color: #8b5742;
-  margin-top: 15px;
-}
-#fffo {
-  color: white;
-  display: inline-block;
- margin-left: 100px;
-}
-#div-footer{
-  text-align: center;
-}
-
 .section-contato{
   width: 100%;
   background-color: #8b5742;
@@ -200,67 +168,72 @@ footer{
   text-align: center;
 }
 .contato{
-display: inline-block;
-max-width: 300px;
-max-height: 500px;
+  display: inline-block;
+  max-width: 300px;
+  max-height: 500px;
+  }
+  .ul-contatos{
+    display: inline;
+  }
+  .li-contato{
+    list-style: none; 
+    margin: 10px; 
+  }
+  .a-contato{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none ; 
+  }
+  .h1-contato{
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    width: 200px;
+    color: white;
+  border-radius: 10% 40% 40%;
+  }
+  footer{
+    width: 100%;
+    height: 80px;
+    background-color: #8b5742;
+    margin-top: 15px;
+  }
+   #fffo {
+     color: white;
+     display: inline-block;
+     margin-left: 100px;
+  }
+    #div-footer{
+      text-align: center;
+  }
+    iframe{
+      width: 200px;
+      height: 80px;
+       padding-top: 40px;
 }
-.ul-contatos{
-  display: inline;
-  
-}
-.a-contato{
-  
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none ;
-  
-}
-.li-contato{
-  list-style: none; 
-  margin: 10px; 
-}
-iframe{
-  width: 200px;
-  height: 80px;
-  padding-top: 40px;
-  
-}
-#p-mapa{
+  #p-mapa{
   color: white;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
 }
-#h1-contato {
-  
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  left: 45%;
-  color: white;
-  border-radius: 30%;
- 
-}
-.h1-contato{
-  border-bottom: 1px solid white;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 30px;
-  width: 200px;
-
-  color: white;
-  border-radius: 10% 40% 40%;
+  #h1-contato {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 45%;
+    color: white;
+    border-radius: 30%;
 }
 #cartão{
   width: 210px;
   height: 167px;
   
 }
-
 .dif{
  float: left;
 }
 /* css galeria */
-
 .img-galeria-fotos{
   width: 100%;
  height: auto;
@@ -272,12 +245,9 @@ iframe{
   display: inline-block;
  position: static;
  align-items: center;
- 
 }
 .li-galeria{
   display: inline-block;
-  
-  
 }
 .img-galeria{
   width: 400px;
@@ -290,6 +260,14 @@ height: auto;
 align-items: center;
 }
 /* responsivo */
+@media screen and (max-width: 1930px){
+  .barner-div {
+    height: auto;
+}
+.amostra {
+  height: 698px;
+}
+}
 @media screen and (max-width: 1254px){
   .texto{
     float: none;
@@ -297,7 +275,7 @@ align-items: center;
    font-size: 60px;
    width: 400px;
 
-  }
+}
   .texto-espo {
    
     margin: 31px;
@@ -309,7 +287,7 @@ align-items: center;
     float: none;
    align-items: center;
    height: 179px;
-  }
+}
   .li-menu-centro{
     position: relative;
     float: none;
@@ -318,7 +296,7 @@ align-items: center;
     top: 90px;
     margin: 3px;
     padding: 2px;
-  }
+}
   .ul-imagens {
     width: 500px;
     height: 100px;
@@ -328,23 +306,21 @@ align-items: center;
 }
 .imagen-li {
   width: 150px;
- 
 }
 .social {
   width: 30px;
   position: relative;
-top: 60px;
-margin: 1px;
-
+  top: 60px;
+  margin: 1px;
 }
   .logo-rede{
     position: relative;
     bottom: 180px;
-  list-style: none; 
-   margin: 0px;
-   margin-bottom: 0px;
+    list-style: none; 
+    margin: 0px;
+    margin-bottom: 0px;
    
-  }
+}
   .barner-div {
     height: 453px;
 }
@@ -386,7 +362,7 @@ margin: 1px;
 .logo-rede {
   display: inline;
 }
-menu-centro {
+.menu-centro {
   text-decoration: none;
   font-size: 50px;
   font-family: 'galeria';
@@ -484,6 +460,7 @@ text-align: center;
 margin: 0px;
 top: 43px;
 right: 223px;
+text-shadow: 2px 0 0px #8b5742, 0px 2px;
 }
 .ul-menu-centro {
 width: 100%;
@@ -500,13 +477,10 @@ width: 19px;
   height: 333px;
 }
 .barner-div .barner-foto {
-  width: 49%;
-}
-.barner-div .barner-foto {
- 
-  width: 70%;
+  width: 84%;
   height: 60%;
-  
+  float: right;
+
 }
 .barner-foto {
   height: 58%;
@@ -528,23 +502,18 @@ width: 19px;
   margin-right: 45px;
 }
 .tamanho-l {
-  float: none;
-  
+   float: none; 
 }
 .h3-amostra {
-  
-  
   display: inline flow-root list-item;
 }
-#h1-contato {
-  
+ #h1-contato {
   margin-left: 0%;
 }
-.h1-contato {
- 
+ .h1-contato {
   margin-left: 31%;
 }
-#aceit {
+ #aceit {
   margin-left: 31%;
 }
 #fffo {
