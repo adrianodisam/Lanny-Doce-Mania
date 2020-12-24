@@ -332,9 +332,10 @@ align-items: center;
 }
 .social {
   width: 30px;
-  position: inherit;
+  position: relative;
 top: 60px;
-  margin: 5px;
+margin: 1px;
+}
 }
   .logo-rede{
     position: relative;
@@ -490,9 +491,9 @@ right: 0px;
   
 }
 .social {
-  top: 81px;
-  right: 206px;
-  width: 19px;
+  top: -48px;
+right: 125px;
+width: 19px;
 }
 
 .barner-div {
