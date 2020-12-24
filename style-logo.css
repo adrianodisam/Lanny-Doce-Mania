@@ -522,6 +522,10 @@ width: 27px;
   width: 284px;
  
 }
+.img-galeria:hover {
+  width: 300px;
+  
+}
 }
 @media screen and (max-width: 500px){
   .social {
