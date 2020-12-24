@@ -332,7 +332,7 @@ align-items: center;
 }
 .social {
   width: 30px;
-  position: relative;
+  position: inherit;
 top: 60px;
   margin: 5px;
 }
