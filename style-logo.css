@@ -251,11 +251,11 @@ body{
 }
 .img-galeria{
   width: 400px;
-  margin: 10px auto;
+  margin: 10px;
   border-bottom: 1px solid #8b5742;
 }
 .img-galeria:hover{
-width: 500px;
+width: 380px;
 height: auto;
 align-items: center;
 }
